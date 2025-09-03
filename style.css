@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -81,7 +81,7 @@ body{
     color: #FDF5FF;
     border: none;
     background-color: #FF6E30;
-    padding: 12px 28px;
+    padding: 16px 30px;
     border-radius: 8px;
 }
 
@@ -261,7 +261,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     transform: translateY(-20px);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .tools_container_apps_card:hover .tools_container_apps_card_card-name-text-text{
@@ -287,6 +287,14 @@ body{
 
 .tools_container_apps_card:hover .tools_container_apps_card_card-bottom-left-folder{
     background-color: #283036;
+}
+
+.tools_container_apps_card:hover .tools_container_apps_card_card-name-text-title{
+    color: #FFFFFFE5;
+}
+
+.tools_container_apps_card:hover .tools_container_apps_card_card-name-text{
+    color: #FFFFFFC7;
 }
 
 .tools_container_apps_card_card{
@@ -528,7 +536,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(-17px);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .newtool_container_apps-card:hover .newtool_container_apps-card-card-bottom-img-heart{
@@ -542,6 +550,18 @@ body{
 .newtool_container_apps-card:hover .newtool_container_apps-card-card-bottom-button{
     background-color: #FF6E30;
     color: #ffffff;
+}
+
+.newtool_container_apps-card:hover .newtool_container_apps-card-card-name-text-titlec{
+    color: #FFFFFFE5;
+}
+
+.newtool_container_apps-card:hover .newtool_container_apps-card-card-name-text-text{
+    color: #FFA537;
+}
+
+.newtool_container_apps-card:hover .newtool_container_apps-card-card-name-text{
+    color: #FFFFFFC7;
 }
 
 .newtool_container_apps-card-card{
@@ -676,14 +696,14 @@ max-width: 512px;
     letter-spacing: 0%;
     display: inline-block;
     background: linear-gradient(
-        188.88deg,
+        213.88deg,
         rgba(252, 252, 252, 0) 20.34%,
         rgba(255, 255, 255, 0.5) 155.72%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
     position: absolute;
-    transform: translate(-50%,-50%) rotate(20deg) scaleY(1.2);
+    transform: translate(-50%,-50%) rotate(23deg) ;
     pointer-events: none;
     user-select: none;
     top: 50px;
