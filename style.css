@@ -199,6 +199,7 @@ body{
     max-width: 190px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .tools_container{
@@ -293,9 +294,10 @@ body{
     color: #FFFFFFE5;
 }
 
-.tools_container_apps_card:hover .tools_container_apps_card_card-name-text{
+.tools_container_apps_card:hover .tools_container_apps_card_card-text{
     color: #FFFFFFC7;
 }
+
 
 .tools_container_apps_card_card{
     max-width: 390px;
